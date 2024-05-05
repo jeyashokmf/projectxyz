@@ -1,0 +1,6 @@
+public class accountscontroller
+{
+
+public list <account > getallaccounts(){
+list<account>
+}
