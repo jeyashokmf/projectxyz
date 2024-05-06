@@ -3,4 +3,5 @@ public class accountscontroller
 
 public list <account > getallaccounts(){
 list<account>
+system.debug('account list'+);//change from vscode latest
 }
