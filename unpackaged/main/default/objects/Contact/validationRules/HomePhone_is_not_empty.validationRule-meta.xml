@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HomePhone_is_not_empty</fullName>
+    <active>false</active>
+    <errorConditionFormula>Not
+(
+NOT 
+(
+ISBLANK( HomePhone ) 
+)
+)</errorConditionFormula>
+    <errorMessage>Homephone should not be empty.</errorMessage>
+</ValidationRule>
