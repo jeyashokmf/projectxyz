@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_no_should_be_empty_or_10_digits</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR( 
+LEN( Phone )=0,
+LEN( Phone )=10 
+)</errorConditionFormula>
+    <errorMessage>Account no should be mumerals and 8 characters length.</errorMessage>
+</ValidationRule>
